@@ -21,7 +21,6 @@
 
 | 技能 | 目录 | 触发词 | 输出结构 |
 |------|------|--------|----------|
-| 行业分析 | `industry-analysis-test/` | 帮我分析这个行业 | 发展脉络 / 关键指标表格 / 未来 3–5 年潜力 / 可引用亮点 |
 | 企业分析 | `enterprise-analysis/` | 帮我分析这个企业 | 核心数据 / 股权与组织 / 业务模式（全景占比 + 波特五力 + 波士顿矩阵）/ 高管发言与未来方向 / 第三方前景分析 |
 
 ## 设计思路
@@ -62,13 +61,10 @@
 workbuddy-skills/
 ├── README.md
 ├── LICENSE
-├── authenticity/          # 约束型：真实性
+├── authenticity/           # 约束型：真实性
 │   └── SKILL.md
-├── timeliness-3year/      # 约束型：时效性
+├── timeliness-3year/       # 约束型：时效性
 │   └── SKILL.md
-├── industry-analysis-test/ # 分析型：行业
-│   ├── SKILL.md
-│   └── references/output-template.md
 └── enterprise-analysis/    # 分析型：企业
     ├── SKILL.md
     └── references/output-template.md
